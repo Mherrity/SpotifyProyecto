@@ -70,7 +70,8 @@
   text-align: center;
   text-shadow: 2px 2px rgba(0, 0, 0, 0.945);
   color: white;
-  padding: 1em;
+  padding: 2em;
+  background-color: white;
   opacity: 1.0;
   -webkit-transition: opacity 1s;
   transition: opacity 1s;
@@ -116,10 +117,29 @@
 }
 
 .green-plus{
-  color: green;
+  color: grey;
   position: absolute;
   bottom: 12%;
   right: 5%;
   align-content: center;
-
+}
+.chevron-right{
+  color: grey;
+  position: absolute;
+  bottom: 50%;
+  left: 90%;
+  align-content: center;
+}
+.chevron-left{
+  color: grey;
+  position: absolute;
+  bottom: 50%;
+  right: 90%;
+  align-content: center
+}
+.Popularity{
+  position: absolute;
+  top: 5%;
+  right:5%;
+  color: blue;
 }
